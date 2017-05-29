@@ -1,67 +1,111 @@
-div#map{
-  width: 80%;
-  height: 400px;
+div#map {
+    width: 80%;
+    height: 400px;
 }
-.bag-yellow{
-  background: #f7b617;
+
+.bag-yellow {
+    background: #f7b617;
 }
-.bag-white{
-  background: #fff;
+
+.bag-white {
+    background: #fff;
 }
-.padd-25{
-  padding: 25px 0;
+.bg-gray{
+  background: #F8F8F8;
 }
-.main{
-  border: 1px solid #fff;
+ul.nav.navbar-nav.navbar-right {
+    padding: 10px;
 }
-.bd-bootom{
-  border-left: 1px solid #fff;
+.main {
+    border: 1px solid #fff;
 }
-.icon{
-  color:#fff;
+
+.bd-bootom {
+    border-left: 1px solid #fff;
+}
+
+.icon {
+    color: #fff;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #fff;
+    color: #fff;
 }
+
 .form-control:-moz-placeholder {
-  color: #fff;
+    color: #fff;
 }
-.row div:nth-child(3){
-  border-right: 2px solid #fff;
-}
+
 .form-control {
-  color: #fff;
+    color: #fff;
 }
+
 .form-control[placeholder] {
-  color: #fff;
-}
-.dis-inline{
-  display: inline-block;;
-}
-.tarifa{
-  padding: 20px 20px ;
+    color: #fff;
 }
 
-.borde-row{
-  border: 2px #fff solid;
-  border-radius: 20px;
-  margin: 26px;
+.dis-inline {
+    display: inline-block;
+    ;
 }
 
-  .conductor{
+.tarifa {
+    padding: 20px 20px;
+}
+
+.borde-row {
+    border: 2px #fff solid;
+    border-radius: 20px;
+    margin: 26px;
+}
+
+.conductor {
     height: 100vh;
     background-image: url("../img/conduce.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .driver{
+}
+
+.driver {
     opacity: 0.5;
-  background-color: gray;
-height:  508px;
-  right: 0;
+    background-color: gray;
+    height: 508px;
+    right: 0;
+    position: absolute;
+}
+
+.portada, .informacion, .conductor, .tarifa {
+    height: 508px;
+}
+
+.portada {
+    background-image: url("../img/taxi.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
   position: absolute;
-  }
-.portada , .informacion , .conductor , .tarifa{
-  height:  508px;
+      right: 0;
+      top: 35%;
+      width: 504px;
+      height: 355px;
+}
+.texto{
+  /* line-height: 33px; */
+padding: 0px;
+font-size: 35px;
+margin: 0;
+
+}
+.derecha{
+  float: right !important;
+}
+.izquierda{
+  float: left !important;
+}
+.menu {
+    margin: 0;
+    height: 71px;
 }

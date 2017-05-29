@@ -1,3 +1,4 @@
+console.log("funciona load");
 var miUbicacion;
   var tarifa=document.getElementById("tarifa");
 function initMap() {
@@ -35,9 +36,7 @@ function initMap() {
             navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
         }
     }
-
     buscar();
-
     console.log(tarifa);
     var inputPartida = document.getElementById("punto-partida");
     var inputDestino = document.getElementById("punto-destino");
