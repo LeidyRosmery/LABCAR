@@ -87,10 +87,28 @@ ul.nav.navbar-nav.navbar-right {
 
 .hero {
   position: absolute;
+  padding: 60px 20px;
       right: 0;
       top: 35%;
       width: 504px;
       height: 355px;
+}
+.title{
+  margin-top: 30px;
+}
+.font-20px{
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+.hero{
+    width: 75% !important;
+  }
+}
+
+
+.logo {
+    width: 74px;
+    height: 23px;
 }
 .texto{
   /* line-height: 33px; */
