@@ -1,0 +1,67 @@
+div#map{
+  width: 80%;
+  height: 400px;
+}
+.bag-yellow{
+  background: #f7b617;
+}
+.bag-white{
+  background: #fff;
+}
+.padd-25{
+  padding: 25px 0;
+}
+.main{
+  border: 1px solid #fff;
+}
+.bd-bootom{
+  border-left: 1px solid #fff;
+}
+.icon{
+  color:#fff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-control:-moz-placeholder {
+  color: #fff;
+}
+.row div:nth-child(3){
+  border-right: 2px solid #fff;
+}
+.form-control {
+  color: #fff;
+}
+.form-control[placeholder] {
+  color: #fff;
+}
+.dis-inline{
+  display: inline-block;;
+}
+.tarifa{
+  padding: 20px 20px ;
+}
+
+.borde-row{
+  border: 2px #fff solid;
+  border-radius: 20px;
+  margin: 26px;
+}
+
+  .conductor{
+    height: 100vh;
+    background-image: url("../img/conduce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .driver{
+    opacity: 0.5;
+  background-color: gray;
+height:  508px;
+  right: 0;
+  position: absolute;
+  }
+.portada , .informacion , .conductor , .tarifa{
+  height:  508px;
+}
