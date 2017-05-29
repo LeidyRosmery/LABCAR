@@ -46,7 +46,6 @@ ul.nav.navbar-nav.navbar-right {
 
 .dis-inline {
     display: inline-block;
-    ;
 }
 
 .tarifa {
@@ -67,13 +66,16 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .driver {
-    opacity: 0.5;
-    background-color: gray;
-    height: 508px;
-    right: 0;
-    position: absolute;
+  opacity: 0.5;
+  background-color: gray;
+  height: 508px;
+  padding: 137px 20px;
+  right: 0;
+  position: absolute;
 }
-
+#boton{
+      margin-left: 82px;
+}
 .portada, .informacion, .conductor, .tarifa {
     height: 508px;
 }
@@ -102,6 +104,11 @@ ul.nav.navbar-nav.navbar-right {
 @media (max-width: 768px) {
 .hero{
     width: 75% !important;
+  }
+}
+@media  (max-width: 768px){
+  #boton {
+      margin-left: 36px;
   }
 }
 

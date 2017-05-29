@@ -81,8 +81,8 @@
               <div class="row">
                    <div class="driver col-2-md col-12-xs col-md-offset-8">
                         <h1 class="icon text-center">Conduce cuando quieras</h1>
-                        <p class="icon text-center">LAbCar es una opcion flexible para alcanzar tus metas financieras</p>
-                        <button type="button" class="btn btn-primary bag-yellow icon" name="button" ><strong>Conviertete en conductor</strong></button>
+                        <p class="icon text-center font-20px">LAbCar es una opcion flexible para alcanzar tus metas financieras</p>
+                        <button id="boton" type="button" class="btn btn-primary bag-yellow icon text-center btn-lg" name="button" ><strong>Conviertete en conductor</strong></button>
                     </div>
                   </div>
                 </div>
@@ -99,7 +99,7 @@
                     <form class="form-horizontal container col-xs-8">
                         <div class="row">
                             <span class="icon glyphicon glyphicon-record"></span>
-                            <input id="punto-partida" type="text " class="form-control bag-yellow main" placeholder="ingresa tu punto de partida">
+                            <input id="punto-partida" type="text " class="form-control bag-yellow main dis-inline" placeholder="ingresa tu punto de partida">
                         </div>
                         <div class="form-group">
                             <span class="padd-8 icon glyphicon glyphicon-send"></span>
@@ -113,7 +113,7 @@
                         </div>
                     </form>
                 </div>
-                <div class=" col-md-6 hidden-xs">
+                <div class=" col-md-6 hidden-x">
                     <div id="map"></div>
                 </div>
             </div>
@@ -124,8 +124,12 @@
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/app.js" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.min.js">
+    </script>
+    <script src="assets/js/app.js" charset="utf-8">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDPwRibm8zzNDMSsaY-yBW9uRmjipL4i4&callback=initMap&libraries=places">
+    </script>
 </body>
 
 </html>
