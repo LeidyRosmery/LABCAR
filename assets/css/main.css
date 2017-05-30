@@ -51,7 +51,9 @@ ul.nav.navbar-nav.navbar-right {
 .tarifa {
     padding: 20px 20px;
 }
-
+footer{
+  background:gray;
+}
 .borde-row {
     border: 2px #fff solid;
     border-radius: 20px;
