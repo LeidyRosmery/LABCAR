@@ -68,6 +68,6 @@ __***Footer***__
 
 ![footer-mobil](https://lh5.googleusercontent.com/q0qqN5RHtGuqCEdEWUhD3S_fgk3jARsXnQ1R2rusv7s_lZdh2rRJq1M0u1zrSqP7WiVyISYory_xaa0s6j7k2IMGmqZ_b8LfY_cA-5UzpQ6Mhvs9JZ_GOYjepSckX9dUp9h1cmO923Y)
 
-| git status | List all new or modified files |
+ git status | List all new or modified files 
 
 | En la vista mobile desaparece un bloque de links, los iconos parecen a la derecha, las tiendas debajo de los iconos y el nombre al final | En la vista mobile solo estimara la tarifa entre los puntos que escriban en los inputs |
