@@ -67,12 +67,3 @@ __***Footer***__
 - En la vista mobile desaparece un bloque de links, los iconos parecen a la derecha, las tiendas debajo de los iconos y el nombre al final.
 
 ![footer-mobil](https://lh5.googleusercontent.com/q0qqN5RHtGuqCEdEWUhD3S_fgk3jARsXnQ1R2rusv7s_lZdh2rRJq1M0u1zrSqP7WiVyISYory_xaa0s6j7k2IMGmqZ_b8LfY_cA-5UzpQ6Mhvs9JZ_GOYjepSckX9dUp9h1cmO923Y)
-
- git status | List all new or modified files
-
-| En la vista mobile desaparece un bloque de links, los iconos parecen a la derecha, las tiendas debajo de los iconos y el nombre al final | En la vista mobile solo estimara la tarifa entre los puntos que escriban en los inputs |
-
-- Tener en cuenta que el API no permite más de 2 registros del mismo teléfono a la vez.
-
-![carrousel-img1](https://lh4.googleusercontent.com/mzF88VW5ktT6xhNt2hCxKJxrPBUI9SZAFvDxx5zafIbmLwVBGGp0HSS2EkF5vxSYc8XqH1u2lXT51BX8Dnb_Ci8-zr4w76vFIAPL24IiV2PwB9QQmxrhet2RCweDlpO2qsj5-dCdbl8) |
-![carrousel-img2](https://lh5.googleusercontent.com/q0qqN5RHtGuqCEdEWUhD3S_fgk3jARsXnQ1R2rusv7s_lZdh2rRJq1M0u1zrSqP7WiVyISYory_xaa0s6j7k2IMGmqZ_b8LfY_cA-5UzpQ6Mhvs9JZ_GOYjepSckX9dUp9h1cmO923Y)
