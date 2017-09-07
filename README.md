@@ -30,7 +30,7 @@ __***Navbar***__
 ![navbar](https://lh3.googleusercontent.com/7CJrwNvoaKJUEoriB9TyjQkEW22mAcseyELIeVSE-NnewDrpDoYeET-iuLOubPyw1gpqHxYAL9QxadfR69fgjQElmHN-HeCeDE0YUYeghzPJYI9AdHt_4pK0rNv8OTZMiHxtjArws-4)
 - Y en la vista mobile solo se muestra el logo y las demas opciones pasan a ser parte de un menu desplegable.
 
-![navbar](https://lh5.googleusercontent.com/oBtXyFQfu4pJ2nKXSiC5duzllNdoFPcQMEdkPixFQJeG9mZIfaslH459YUK_1kBA7NUo
+![navbar](https://lh5.googleusercontent.com/oBtXyFQfu4pJ2nKXSiC5duzllNdoFPcQMEdkPixFQJeG9mZIfaslH459YUK_1kBA7NUoexJ-yHEPeAXv9CL4-_PHx062OKU-GZGcDQgGSGJLArEtKQ56_W-HYpQug5wSAV7K8BfZrC4)
 
 __***Hero***__
 - Tiene como fondo la imagen "taxi" y a la derecha la opcion de registrarse o convertirse en conductor.
@@ -58,8 +58,7 @@ __***Tarifa***__
 ![tarifa](https://lh3.googleusercontent.com/Y30EqIqw54kGHN32m21REOxpz5WM_AbhGu7XvfTdw1bVPni0nSH_M-E7Af15LAVs4xJzZHbktDqeRAQp4mvwW4iG6ojMrQbxTvEuw1J9mNR-7BDfN3X22p_FMROMu9vUUlgBXHFf_dc)
 - En la vista mobile solo estimara la tarifa entre los puntos que escriban en los inputs.
 
-![tarifa-mobil] (https://lh3.googleusercontent.com/C4Vws6BDsiV0lQzQ1VGD-RUW7oQmPXhrRfQz-wfu4NL2Gz_uriK7TGPouB4yAh3tm4cVUYxN7XnWyu0rjukhj30w2cSO4SJVlrC2jXUBYGdxoWKcQSZaeZIQdfYVopIp_y_uon6h3XE)
-
+![tarifa-mobil](https://lh4.googleusercontent.com/mzF88VW5ktT6xhNt2hCxKJxrPBUI9SZAFvDxx5zafIbmLwVBGGp0HSS2EkF5vxSYc8XqH1u2lXT51BX8Dnb_Ci8-zr4w76vFIAPL24IiV2PwB9QQmxrhet2RCweDlpO2qsj5-dCdbl8)
 
 __***Footer***__
 - En el footer encontramos el logo, las redes sociales, link, tiendas y nombre.
