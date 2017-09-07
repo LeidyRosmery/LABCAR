@@ -4,7 +4,7 @@ LabCAr es una empresa de taxis que te permite pedir un taxi cuando quieras y en 
 Sabemos que tu tiempo es dinero, por lo que si nuestro servicio se demora en llegar mas de lo establecido te daremos un 10% de descuento en tu viaje. Puedes ver el demo del website haciendo click [aquí](https://laboratoriasprint05.herokuapp.com/).
 
 ## Secciones:
-- La web de LabCar esta conformada por :
+La web de LabCar esta conformada por :
 * Navbar
 * Hero
 * Informacion
@@ -65,4 +65,14 @@ __***Footer***__
 
 ![footer](https://lh6.googleusercontent.com/HoK8e-eVZnAZmMJJkgrSbiURZ5wZloGLZ4Hps8h-NPB4MuF639mtkGOwGddxrjYWsW4n8q4lTMRwL2NSqyDQSYQrPoFrxU_qIRH7EGiTnpq6e8KKOg-8_JNmLrZd736x1sIMvJlpITY)
 - En la vista mobile desaparece un bloque de links, los iconos parecen a la derecha, las tiendas debajo de los iconos y el nombre al final.
+
 ![footer-mobil](https://lh5.googleusercontent.com/q0qqN5RHtGuqCEdEWUhD3S_fgk3jARsXnQ1R2rusv7s_lZdh2rRJq1M0u1zrSqP7WiVyISYory_xaa0s6j7k2IMGmqZ_b8LfY_cA-5UzpQ6Mhvs9JZ_GOYjepSckX9dUp9h1cmO923Y)
+
+
+|En la vista mobile desaparece un bloque de links, los iconos parecen a la derecha, las tiendas debajo de los iconos y el nombre al final.
+
+![footer-mobil](https://lh5.googleusercontent.com/q0qqN5RHtGuqCEdEWUhD3S_fgk3jARsXnQ1R2rusv7s_lZdh2rRJq1M0u1zrSqP7WiVyISYory_xaa0s6j7k2IMGmqZ_b8LfY_cA-5UzpQ6Mhvs9JZ_GOYjepSckX9dUp9h1cmO923Y) |
+En la vista mobile solo estimara la tarifa entre los puntos que escriban en los inputs.
+
+![tarifa-mobil](https://lh4.googleusercontent.com/mzF88VW5ktT6xhNt2hCxKJxrPBUI9SZAFvDxx5zafIbmLwVBGGp0HSS2EkF5vxSYc8XqH1u2lXT51BX8Dnb_Ci8-zr4w76vFIAPL24IiV2PwB9QQmxrhet2RCweDlpO2qsj5-dCdbl8)
+|
