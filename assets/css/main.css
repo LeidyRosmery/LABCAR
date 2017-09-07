@@ -1,3 +1,11 @@
+* {
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
 div#map {
     width: 80%;
     height: 400px;
@@ -10,12 +18,15 @@ div#map {
 .bag-white {
     background: #fff;
 }
-.bg-gray{
-  background: #F8F8F8;
+
+.bg-gray {
+    background: #F8F8F8;
 }
+
 ul.nav.navbar-nav.navbar-right {
     padding: 10px;
 }
+
 .main {
     border: 1px solid #fff;
 }
@@ -51,12 +62,15 @@ ul.nav.navbar-nav.navbar-right {
 .tarifa {
     padding: 20px 20px;
 }
-.under{
-  border-bottom: 2px solid #fff;
+
+.under {
+    border-bottom: 2px solid #fff;
 }
-footer{
-  background:gray;
+
+footer {
+    background: gray;
 }
+
 .borde-row {
     border: 2px #fff solid;
     border-radius: 20px;
@@ -71,16 +85,18 @@ footer{
 }
 
 .driver {
-  opacity: 0.5;
-  background-color: gray;
-  height: 508px;
-  padding: 137px 20px;
-  right: 0;
-  position: absolute;
+    opacity: 0.5;
+    background-color: gray;
+    height: 508px;
+    padding: 137px 20px;
+    right: 0;
+    position: absolute;
 }
-#boton{
-      margin-left: 82px;
+
+#boton {
+    margin-left: 82px;
 }
+
 .portada, .informacion, .conductor, .tarifa {
     height: 508px;
 }
@@ -93,49 +109,88 @@ footer{
 }
 
 .hero {
-  position: absolute;
-  padding: 60px 20px;
-      right: 0;
-      top: 35%;
-      width: 504px;
-      height: 355px;
-}
-.title{
-  margin-top: 30px;
-}
-.font-20px{
-  font-size: 20px;
-}
-@media (max-width: 768px) {
-.hero{
-    width: 75% !important;
-  }
-}
-@media  (max-width: 768px){
-  #boton {
-      margin-left: 36px;
-  }
+    position: absolute;
+    padding: 60px 20px;
+    right: 0;
+    top: 35%;
+    width: 504px;
+    height: 355px;
 }
 
+.title {
+    margin-top: 30px;
+}
+
+.font-20px {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #boton {
+        margin-left: 36px;
+    }
+}
 
 .logo {
     width: 74px;
     height: 23px;
 }
-.texto{
-  /* line-height: 33px; */
-padding: 0px;
-font-size: 35px;
-margin: 0;
 
+.texto {
+    /* line-height: 33px; */
+    padding: 0px;
+    font-size: 35px;
+    margin: 0;
 }
-.derecha{
-  float: right !important;
+
+.derecha {
+    float: right !important;
 }
-.izquierda{
-  float: left !important;
+
+.izquierda {
+    float: left !important;
 }
+
 .menu {
     margin: 0;
     height: 71px;
+}
+
+
+/******************** footer ********************/
+
+.pie-pagina {
+    background: #2b2b2b;
+    padding: 2.5em 3em;
+
+}
+
+.tag-footer {
+    width: 9em;
+    padding: 1em 0;
+}
+
+ul>li {
+    list-style: none;
+    padding: 0.5em 0;
+}
+
+.detail-footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .pie-pagina{
+    padding: 2em 1em;
+  }
+    .detail-footer {
+        display: inline-block;
+    }
 }
