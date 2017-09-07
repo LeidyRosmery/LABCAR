@@ -1,14 +1,63 @@
 * {
-    color: #fff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 1em;
 }
 
-div#map {
+
+/******************** conductor ********************/
+
+.conductor {
+
+    background-image: url(../img/conduce.jpg);
+    background-position: 0em -14em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.driver {
+    height: 75vh;
+    background-color: rgba( 0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 0 4em;
+    justify-content: center;
+}
+
+
+/******************** tarifas ********************/
+
+#map {
+    height: 50vh;
+    padding: 2em;
+}
+
+#tarifa {
+    font-size: 2.5em;
+}
+
+.cntr-map {
+    border: 0.1em solid #fff;
+    padding: 0.6em;
     width: 80%;
-    height: 400px;
+}
+
+.form-control {
+    border: #fff solid 0.1em;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: white;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.border-map {
+    border: 0.2em solid #fff;
 }
 
 .bag-yellow {
@@ -19,147 +68,21 @@ div#map {
     background: #fff;
 }
 
-.bg-gray {
-    background: #F8F8F8;
-}
-
-ul.nav.navbar-nav.navbar-right {
-    padding: 10px;
-}
-
-.main {
-    border: 1px solid #fff;
-}
-
-.bd-bootom {
-    border-left: 1px solid #fff;
-}
-
-.icon {
+.font-white {
     color: #fff;
 }
 
-.form-control::-webkit-input-placeholder {
-    color: #fff;
+.font-gray {
+    color: #2b2b2b;
 }
 
-.form-control:-moz-placeholder {
-    color: #fff;
+.btn-send {
+    font-weight: bold;
+    border: none;
 }
 
-.form-control {
-    color: #fff;
-}
-
-.form-control[placeholder] {
-    color: #fff;
-}
-
-.dis-inline {
-    display: inline-block;
-}
-
-.tarifa {
-    padding: 20px 20px;
-}
-
-.under {
-    border-bottom: 2px solid #fff;
-}
-
-footer {
-    background: gray;
-}
-
-.borde-row {
-    border: 2px #fff solid;
-    border-radius: 20px;
-    margin: 26px;
-}
-
-.conductor {
-    height: 100vh;
-    background-image: url("../img/conduce.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.driver {
-    opacity: 0.5;
-    background-color: gray;
-    height: 508px;
-    padding: 137px 20px;
-    right: 0;
-    position: absolute;
-}
-
-#boton {
-    margin-left: 82px;
-}
-
-.portada, .informacion, .conductor, .tarifa {
-    height: 508px;
-}
-
-.portada {
-    background-image: url("../img/taxi.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero {
-    position: absolute;
-    padding: 60px 20px;
-    right: 0;
-    top: 35%;
-    width: 504px;
-    height: 355px;
-}
-
-.title {
-    margin-top: 30px;
-}
-
-.font-20px {
-    font-size: 20px;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        width: 75% !important;
-    }
-}
-
-@media (max-width: 768px) {
-    #boton {
-        margin-left: 36px;
-    }
-}
-
-.logo {
-    width: 74px;
-    height: 23px;
-}
-
-.texto {
-    /* line-height: 33px; */
-    padding: 0px;
-    font-size: 35px;
-    margin: 0;
-}
-
-.derecha {
-    float: right !important;
-}
-
-.izquierda {
-    float: left !important;
-}
-
-.menu {
-    margin: 0;
-    height: 71px;
+.tarifa, .pie-pagina {
+    padding: 2.5em 3em;
 }
 
 
@@ -167,8 +90,6 @@ footer {
 
 .pie-pagina {
     background: #2b2b2b;
-    padding: 2.5em 3em;
-
 }
 
 .tag-footer {
@@ -187,10 +108,17 @@ ul>li {
 }
 
 @media screen and (max-width: 767px) {
-  .pie-pagina{
-    padding: 2em 1em;
-  }
+    .pie-pagina, .tarifa {
+        padding: 2em 1em;
+    }
     .detail-footer {
         display: inline-block;
+    }
+    .driver {
+        height: 60vh;
+        padding: 0 5em 0 1em;
+    }
+    .conductor{
+      background-position: 0em;
     }
 }
