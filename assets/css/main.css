@@ -4,16 +4,64 @@
     padding: 0;
     font-size: 1em;
 }
+
+
+/******************** nav ********************/
+
+.menu {
+    margin: 0;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    width: 35%;
+    display: flex;
+    color: #333;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+/******************** hero********************/
+
+.hero {
+    background-image: url(../img/taxi.jpg);
+    background-position-y: -95em;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    background-size: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-hero {
+    width: 6.5em;
+    margin-bottom: 1.5em;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+
+.detail-hero {
+    width: 27vw;
+    height: 52vh;
+    padding: 2em 2em 0 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
 /******************** informacion********************/
-.info-labcar{
-  font-size: 1.3em;
+
+.info-labcar {
+    font-size: 1.3em;
     padding-right: 9em;
 }
+
 
 /******************** conductor ********************/
 
 .conductor {
-
     background-image: url(../img/conduce.jpg);
     background-position: 0em -14em;
     background-repeat: no-repeat;
@@ -85,8 +133,7 @@
     border: none;
 }
 
-
-.pd{
+.pd {
     padding: 2.5em 3em;
 }
 
@@ -113,6 +160,10 @@ ul>li {
 }
 
 @media screen and (max-width: 767px) {
+    a#logo {
+        position: relative;
+        right: 3em;
+    }
     .pd {
         padding: 2em 1em;
     }
@@ -123,7 +174,15 @@ ul>li {
         height: 60vh;
         padding: 0 5em 0 1em;
     }
-    .conductor{
-      background-position: 0em;
+    .conductor {
+        background-position: 0em;
+    }
+    .detail-hero {
+        width: 80vw;
+        height: 50vh;
+    }
+    .hero {
+        background-position: 0;
+        height: 84vh;
     }
 }
