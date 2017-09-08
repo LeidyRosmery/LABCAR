@@ -4,7 +4,11 @@
     padding: 0;
     font-size: 1em;
 }
-
+/******************** informacion********************/
+.info-labcar{
+  font-size: 1.3em;
+    padding-right: 9em;
+}
 
 /******************** conductor ********************/
 
@@ -81,7 +85,8 @@
     border: none;
 }
 
-.tarifa, .pie-pagina {
+
+.pd{
     padding: 2.5em 3em;
 }
 
@@ -108,7 +113,7 @@ ul>li {
 }
 
 @media screen and (max-width: 767px) {
-    .pie-pagina, .tarifa {
+    .pd {
         padding: 2em 1em;
     }
     .detail-footer {
